@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GrapesJS Custom Styles */
+.gjs-editor-cont {
+  height: 100% !important;
+}
+
+.gjs-cv-canvas {
+  background: #f8f9fa;
+  padding: 20px;
+}
+
+.gjs-frame {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Block styles */
+.gjs-block {
+  width: auto !important;
+  height: auto !important;
+  min-height: 45px !important;
+  margin: 8px 0 !important;
+  padding: 12px !important;
+  background: white !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 6px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.gjs-block:hover {
+  background: #f8fafc !important;
+  border-color: #3b82f6 !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.15) !important;
+}
+
+.gjs-block-label {
+  font-size: 13px !important;
+  color: #374151 !important;
+  font-weight: 500 !important;
+}
+
+/* Layer Manager */
+.gjs-lm-layer {
+  padding: 8px !important;
+  border-bottom: 1px solid #f3f4f6 !important;
+  border-radius: 4px !important;
+  margin-bottom: 2px !important;
+}
+
+.gjs-lm-layer:hover {
+  background: #f8fafc !important;
+}
+
+.gjs-lm-layer.gjs-lm-open {
+  background: #eff6ff !important;
+}
+
+/* Style Manager */
+.gjs-sm-sector {
+  border-bottom: 1px solid #f3f4f6 !important;
+  margin-bottom: 8px !important;
+}
+
+.gjs-sm-title {
+  background: #f8fafc !important;
+  padding: 12px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  border-radius: 4px !important;
+  font-size: 13px !important;
+  color: #374151 !important;
+}
+
+.gjs-sm-title:hover {
+  background: #f1f5f9 !important;
+}
+
+.gjs-sm-properties {
+  padding: 12px !important;
+}
+
+.gjs-sm-property {
+  margin-bottom: 12px !important;
+}
+
+.gjs-sm-label {
+  font-size: 12px !important;
+  color: #6b7280 !important;
+  margin-bottom: 6px !important;
+  font-weight: 500 !important;
+}
+
+.gjs-field {
+  width: 100% !important;
+  padding: 8px !important;
+  border: 1px solid #d1d5db !important;
+  border-radius: 4px !important;
+  font-size: 13px !important;
+}
+
+.gjs-field:focus {
+  outline: none !important;
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+}
+
+/* Toolbar styles */
+.gjs-toolbar {
+  background: white !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 6px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+.gjs-toolbar-item {
+  border-radius: 4px !important;
+  margin: 2px !important;
+}
+
+/* Canvas improvements */
+.gjs-cv-canvas__frames {
+  padding: 20px !important;
+}
+
+/* Panel improvements */
+.gjs-pn-panel {
+  background: white !important;
+}
+
+.gjs-pn-btn {
+  padding: 8px 12px !important;
+  border-radius: 4px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
+
+.gjs-pn-active {
+  background: #3b82f6 !important;
+  color: white !important;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .gjs-editor-cont {
+    flex-direction: column !important;
+  }
+
+  .gjs-cv-canvas {
+    padding: 10px !important;
+  }
+}
