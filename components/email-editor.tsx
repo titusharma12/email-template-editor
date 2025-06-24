@@ -19,7 +19,7 @@ export function EmailEditor() {
 
   return (
     <div className="flex h-screen">
-      {/* Sidebar */}
+      {/* Sidebar editor */}
       <div className="w-80 bg-white border-r border-gray-200 overflow-y-auto">
         <div className="p-4 border-b">
           <h1 className="text-xl font-bold text-gray-900">Email Template Editor</h1>
